@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet"type = "text/css" href = "styles.css" />
+    <title>Document</title>
+</head>
+<body>
+  <h1>Hello worldz</h1>
+<div class="grid">
+  <div class="todos">
+    <button onclick="handlers.displayTodos()">DIsplay Todos</button>
+     <button onclick="handlers.toggleAll()">Toggle All</button>
+
+      <div>
+     <button onclick="handlers.addTodo()">Add</button>
+     <input type="text" id='addTodoTextInput'>
+      </div>
+      <div>
+        <button onclick='handlers.changeTodo()'>Edit Todo</button>
+        <input type="number" id='changeTodoPositionInput'>
+        <input type="text" id='changeTodoTextInput'>
+      </div>
+      <div class="delete">
+        <button onclick='handlers.deleteTodo()'>Delete</button>
+        <input type='number' id='deleteTodoPositionInput'>
+      </div>
+      <div class="toggle">
+        <button onclick='handlers.toggleCompleted()'>Toggle Completed</button>
+        <input type="number" id='toggleCompletedPositionInput'>
+      </div>
+
+
+  </div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>

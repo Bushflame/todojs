@@ -1,0 +1,19 @@
+atom-text-editor .syntax--comment {
+  color: cadetblue;
+}
+body {
+  background: skyblue;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  fonnt-size: 4rem;
+  ccolor:blue;
+}
+.grid {
+  max-width: 400px;
+  margin: 2rem auto;
+  min-height:600px;
+  border:1px silver solid;
+}
